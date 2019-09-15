@@ -1,0 +1,1091 @@
+2019-09-16 01:04:25,656 [main] [INFO ] [Utils] loadConfig(): Loading config file: main.properties
+2019-09-16 01:04:25,664 [main] [INFO ] [DataBaseImpl] Inserting test data
+2019-09-16 01:04:25,898 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=7, userId='7\n, balance=10.00, currencyCode='CNY\n}
+2019-09-16 01:04:25,901 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:25,904 [main] [DEBUG] [AccountDAOImpl] updateAccountBalance from Account: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:25,905 [main] [DEBUG] [AccountDAOImpl] New Balance after Update: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:25,905 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=1, userId='1\n, balance=150.10, currencyCode='USD\n}
+2019-09-16 01:04:25,906 [main] [DEBUG] [AccountDAOImpl] updateAccountBalance from Account: Account{accountId=1, userId='1\n, balance=150.10, currencyCode='USD\n}
+2019-09-16 01:04:25,906 [main] [DEBUG] [AccountDAOImpl] New Balance after Update: Account{accountId=1, userId='1\n, balance=150.10, currencyCode='USD\n}
+2019-09-16 01:04:25,906 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:25,910 [main] [DEBUG] [AccountDAOImpl] updateAccountBalance from Account: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:25,914 [main] [INFO ] [DataBaseImpl] Inserting test data
+2019-09-16 01:04:25,931 [Thread-3] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:25,931 [Thread-3] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=200.20, currencyCode='USD\n}
+2019-09-16 01:04:25,932 [Thread-3] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,933 [Thread-5] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=99.09, currencyCode='USD\n}
+2019-09-16 01:04:25,933 [Thread-5] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=201.21, currencyCode='USD\n}
+2019-09-16 01:04:25,934 [Thread-5] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,935 [Thread-2] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=98.08, currencyCode='USD\n}
+2019-09-16 01:04:25,935 [Thread-2] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=202.22, currencyCode='USD\n}
+2019-09-16 01:04:25,936 [Thread-2] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,936 [Thread-6] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=97.07, currencyCode='USD\n}
+2019-09-16 01:04:25,936 [Thread-6] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=203.23, currencyCode='USD\n}
+2019-09-16 01:04:25,937 [Thread-6] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,939 [Thread-4] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=96.06, currencyCode='USD\n}
+2019-09-16 01:04:25,939 [Thread-4] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=204.24, currencyCode='USD\n}
+2019-09-16 01:04:25,940 [Thread-4] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,946 [Thread-9] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=95.05, currencyCode='USD\n}
+2019-09-16 01:04:25,947 [Thread-9] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=205.25, currencyCode='USD\n}
+2019-09-16 01:04:25,948 [Thread-9] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,949 [Thread-11] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=94.04, currencyCode='USD\n}
+2019-09-16 01:04:25,949 [Thread-11] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=206.26, currencyCode='USD\n}
+2019-09-16 01:04:25,951 [Thread-11] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,952 [Thread-15] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=93.03, currencyCode='USD\n}
+2019-09-16 01:04:25,952 [Thread-15] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=207.27, currencyCode='USD\n}
+2019-09-16 01:04:25,954 [Thread-15] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,955 [Thread-8] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=92.02, currencyCode='USD\n}
+2019-09-16 01:04:25,956 [Thread-8] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=208.28, currencyCode='USD\n}
+2019-09-16 01:04:25,958 [Thread-8] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,958 [Thread-14] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=91.01, currencyCode='USD\n}
+2019-09-16 01:04:25,959 [Thread-14] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=209.29, currencyCode='USD\n}
+2019-09-16 01:04:25,961 [Thread-14] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,962 [Thread-7] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=90.00, currencyCode='USD\n}
+2019-09-16 01:04:25,963 [Thread-7] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=210.30, currencyCode='USD\n}
+2019-09-16 01:04:25,969 [Thread-7] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,970 [Thread-31] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=88.99, currencyCode='USD\n}
+2019-09-16 01:04:25,972 [Thread-31] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=211.31, currencyCode='USD\n}
+2019-09-16 01:04:25,976 [Thread-31] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,977 [Thread-44] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=87.98, currencyCode='USD\n}
+2019-09-16 01:04:25,977 [Thread-44] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=212.32, currencyCode='USD\n}
+2019-09-16 01:04:25,979 [Thread-44] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,986 [Thread-33] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=86.97, currencyCode='USD\n}
+2019-09-16 01:04:25,987 [Thread-33] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=213.33, currencyCode='USD\n}
+2019-09-16 01:04:25,990 [Thread-33] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,990 [Thread-40] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=85.96, currencyCode='USD\n}
+2019-09-16 01:04:25,991 [Thread-40] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=214.34, currencyCode='USD\n}
+2019-09-16 01:04:25,994 [Thread-40] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:25,996 [Thread-29] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=84.95, currencyCode='USD\n}
+2019-09-16 01:04:25,996 [Thread-29] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=215.35, currencyCode='USD\n}
+2019-09-16 01:04:26,002 [Thread-29] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,002 [Thread-43] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=83.94, currencyCode='USD\n}
+2019-09-16 01:04:26,003 [Thread-43] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=216.36, currencyCode='USD\n}
+2019-09-16 01:04:26,006 [Thread-43] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,006 [Thread-35] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=82.93, currencyCode='USD\n}
+2019-09-16 01:04:26,007 [Thread-35] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=217.37, currencyCode='USD\n}
+2019-09-16 01:04:26,014 [Thread-35] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,019 [Thread-28] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=81.92, currencyCode='USD\n}
+2019-09-16 01:04:26,023 [Thread-28] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=218.38, currencyCode='USD\n}
+2019-09-16 01:04:26,027 [Thread-28] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,030 [Thread-17] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=80.91, currencyCode='USD\n}
+2019-09-16 01:04:26,033 [Thread-17] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=219.39, currencyCode='USD\n}
+2019-09-16 01:04:26,042 [Thread-17] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,047 [Thread-12] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=79.90, currencyCode='USD\n}
+2019-09-16 01:04:26,049 [Thread-12] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=220.40, currencyCode='USD\n}
+2019-09-16 01:04:26,060 [Thread-12] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,063 [Thread-79] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=78.89, currencyCode='USD\n}
+2019-09-16 01:04:26,063 [Thread-79] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=221.41, currencyCode='USD\n}
+2019-09-16 01:04:26,075 [Thread-79] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,076 [Thread-30] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=77.88, currencyCode='USD\n}
+2019-09-16 01:04:26,082 [Thread-30] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=222.42, currencyCode='USD\n}
+2019-09-16 01:04:26,085 [Thread-30] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,087 [Thread-61] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=76.87, currencyCode='USD\n}
+2019-09-16 01:04:26,088 [Thread-61] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=223.43, currencyCode='USD\n}
+2019-09-16 01:04:26,091 [Thread-61] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,092 [Thread-37] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=75.86, currencyCode='USD\n}
+2019-09-16 01:04:26,093 [Thread-37] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=224.44, currencyCode='USD\n}
+2019-09-16 01:04:26,098 [Thread-37] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,101 [Thread-59] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=74.85, currencyCode='USD\n}
+2019-09-16 01:04:26,102 [Thread-59] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=225.45, currencyCode='USD\n}
+2019-09-16 01:04:26,103 [Thread-59] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,104 [Thread-54] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=73.84, currencyCode='USD\n}
+2019-09-16 01:04:26,105 [Thread-54] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=226.46, currencyCode='USD\n}
+2019-09-16 01:04:26,113 [Thread-54] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,115 [Thread-80] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=72.83, currencyCode='USD\n}
+2019-09-16 01:04:26,118 [Thread-80] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=227.47, currencyCode='USD\n}
+2019-09-16 01:04:26,121 [Thread-80] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,122 [Thread-71] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=71.82, currencyCode='USD\n}
+2019-09-16 01:04:26,129 [Thread-71] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=228.48, currencyCode='USD\n}
+2019-09-16 01:04:26,139 [Thread-71] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,140 [Thread-25] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=70.81, currencyCode='USD\n}
+2019-09-16 01:04:26,140 [Thread-25] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=229.49, currencyCode='USD\n}
+2019-09-16 01:04:26,142 [Thread-25] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,142 [Thread-58] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=69.80, currencyCode='USD\n}
+2019-09-16 01:04:26,144 [Thread-58] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=230.50, currencyCode='USD\n}
+2019-09-16 01:04:26,150 [Thread-58] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,155 [Thread-16] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=68.79, currencyCode='USD\n}
+2019-09-16 01:04:26,181 [Thread-16] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=231.51, currencyCode='USD\n}
+2019-09-16 01:04:26,184 [Thread-16] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,184 [Thread-22] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=67.78, currencyCode='USD\n}
+2019-09-16 01:04:26,185 [Thread-22] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=232.52, currencyCode='USD\n}
+2019-09-16 01:04:26,185 [Thread-22] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,186 [Thread-55] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=66.77, currencyCode='USD\n}
+2019-09-16 01:04:26,186 [Thread-55] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=233.53, currencyCode='USD\n}
+2019-09-16 01:04:26,187 [Thread-55] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,187 [Thread-72] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=65.76, currencyCode='USD\n}
+2019-09-16 01:04:26,187 [Thread-72] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=234.54, currencyCode='USD\n}
+2019-09-16 01:04:26,188 [Thread-72] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,188 [Thread-1] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=64.75, currencyCode='USD\n}
+2019-09-16 01:04:26,188 [Thread-1] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=235.55, currencyCode='USD\n}
+2019-09-16 01:04:26,189 [Thread-1] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,189 [Thread-13] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=63.74, currencyCode='USD\n}
+2019-09-16 01:04:26,189 [Thread-13] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=236.56, currencyCode='USD\n}
+2019-09-16 01:04:26,190 [Thread-13] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,190 [Thread-38] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=62.73, currencyCode='USD\n}
+2019-09-16 01:04:26,191 [Thread-38] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=237.57, currencyCode='USD\n}
+2019-09-16 01:04:26,191 [Thread-38] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,191 [Thread-36] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=61.72, currencyCode='USD\n}
+2019-09-16 01:04:26,192 [Thread-36] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=238.58, currencyCode='USD\n}
+2019-09-16 01:04:26,192 [Thread-36] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,193 [Thread-63] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=60.71, currencyCode='USD\n}
+2019-09-16 01:04:26,193 [Thread-63] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=239.59, currencyCode='USD\n}
+2019-09-16 01:04:26,193 [Thread-63] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,194 [Thread-64] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=59.70, currencyCode='USD\n}
+2019-09-16 01:04:26,194 [Thread-64] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=240.60, currencyCode='USD\n}
+2019-09-16 01:04:26,195 [Thread-64] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,197 [Thread-70] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=58.69, currencyCode='USD\n}
+2019-09-16 01:04:26,198 [Thread-70] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=241.61, currencyCode='USD\n}
+2019-09-16 01:04:26,199 [Thread-70] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,200 [Thread-19] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=57.68, currencyCode='USD\n}
+2019-09-16 01:04:26,200 [Thread-19] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=242.62, currencyCode='USD\n}
+2019-09-16 01:04:26,200 [Thread-19] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,201 [Thread-42] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=56.67, currencyCode='USD\n}
+2019-09-16 01:04:26,201 [Thread-42] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=243.63, currencyCode='USD\n}
+2019-09-16 01:04:26,202 [Thread-42] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,203 [Thread-10] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=55.66, currencyCode='USD\n}
+2019-09-16 01:04:26,203 [Thread-10] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=244.64, currencyCode='USD\n}
+2019-09-16 01:04:26,203 [Thread-10] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,203 [Thread-45] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=54.65, currencyCode='USD\n}
+2019-09-16 01:04:26,204 [Thread-45] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=245.65, currencyCode='USD\n}
+2019-09-16 01:04:26,205 [Thread-45] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,205 [Thread-34] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=53.64, currencyCode='USD\n}
+2019-09-16 01:04:26,205 [Thread-34] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=246.66, currencyCode='USD\n}
+2019-09-16 01:04:26,206 [Thread-34] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,206 [Thread-65] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=52.63, currencyCode='USD\n}
+2019-09-16 01:04:26,206 [Thread-65] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=247.67, currencyCode='USD\n}
+2019-09-16 01:04:26,207 [Thread-65] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,207 [Thread-69] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=51.62, currencyCode='USD\n}
+2019-09-16 01:04:26,207 [Thread-69] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=248.68, currencyCode='USD\n}
+2019-09-16 01:04:26,207 [Thread-69] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,208 [Thread-62] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=50.61, currencyCode='USD\n}
+2019-09-16 01:04:26,208 [Thread-62] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=249.69, currencyCode='USD\n}
+2019-09-16 01:04:26,208 [Thread-62] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,209 [Thread-39] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=49.60, currencyCode='USD\n}
+2019-09-16 01:04:26,209 [Thread-39] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=250.70, currencyCode='USD\n}
+2019-09-16 01:04:26,209 [Thread-39] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,209 [Thread-76] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=48.59, currencyCode='USD\n}
+2019-09-16 01:04:26,210 [Thread-76] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=251.71, currencyCode='USD\n}
+2019-09-16 01:04:26,210 [Thread-76] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,211 [Thread-46] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=47.58, currencyCode='USD\n}
+2019-09-16 01:04:26,211 [Thread-46] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=252.72, currencyCode='USD\n}
+2019-09-16 01:04:26,211 [Thread-46] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,212 [Thread-23] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=46.57, currencyCode='USD\n}
+2019-09-16 01:04:26,213 [Thread-23] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=253.73, currencyCode='USD\n}
+2019-09-16 01:04:26,213 [Thread-23] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,214 [Thread-60] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=45.56, currencyCode='USD\n}
+2019-09-16 01:04:26,214 [Thread-60] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=254.74, currencyCode='USD\n}
+2019-09-16 01:04:26,214 [Thread-60] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,215 [Thread-50] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=44.55, currencyCode='USD\n}
+2019-09-16 01:04:26,215 [Thread-50] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=255.75, currencyCode='USD\n}
+2019-09-16 01:04:26,215 [Thread-50] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,215 [Thread-26] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=43.54, currencyCode='USD\n}
+2019-09-16 01:04:26,216 [Thread-26] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=256.76, currencyCode='USD\n}
+2019-09-16 01:04:26,216 [Thread-26] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,216 [Thread-20] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=42.53, currencyCode='USD\n}
+2019-09-16 01:04:26,216 [Thread-20] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=257.77, currencyCode='USD\n}
+2019-09-16 01:04:26,217 [Thread-20] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,218 [Thread-41] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=41.52, currencyCode='USD\n}
+2019-09-16 01:04:26,218 [Thread-41] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=258.78, currencyCode='USD\n}
+2019-09-16 01:04:26,219 [Thread-41] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,219 [Thread-49] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=40.51, currencyCode='USD\n}
+2019-09-16 01:04:26,219 [Thread-49] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=259.79, currencyCode='USD\n}
+2019-09-16 01:04:26,220 [Thread-49] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,220 [Thread-53] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=39.50, currencyCode='USD\n}
+2019-09-16 01:04:26,220 [Thread-53] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=260.80, currencyCode='USD\n}
+2019-09-16 01:04:26,221 [Thread-53] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,221 [Thread-75] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=38.49, currencyCode='USD\n}
+2019-09-16 01:04:26,221 [Thread-75] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=261.81, currencyCode='USD\n}
+2019-09-16 01:04:26,222 [Thread-75] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,224 [Thread-27] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=37.48, currencyCode='USD\n}
+2019-09-16 01:04:26,224 [Thread-27] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=262.82, currencyCode='USD\n}
+2019-09-16 01:04:26,225 [Thread-27] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,225 [Thread-24] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=36.47, currencyCode='USD\n}
+2019-09-16 01:04:26,225 [Thread-24] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=263.83, currencyCode='USD\n}
+2019-09-16 01:04:26,226 [Thread-24] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,226 [Thread-51] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=35.46, currencyCode='USD\n}
+2019-09-16 01:04:26,227 [Thread-51] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=264.84, currencyCode='USD\n}
+2019-09-16 01:04:26,227 [Thread-51] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,227 [Thread-47] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=34.45, currencyCode='USD\n}
+2019-09-16 01:04:26,227 [Thread-47] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=265.85, currencyCode='USD\n}
+2019-09-16 01:04:26,228 [Thread-47] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,228 [Thread-52] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=33.44, currencyCode='USD\n}
+2019-09-16 01:04:26,228 [Thread-52] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=266.86, currencyCode='USD\n}
+2019-09-16 01:04:26,229 [Thread-52] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,229 [Thread-32] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=32.43, currencyCode='USD\n}
+2019-09-16 01:04:26,230 [Thread-32] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=267.87, currencyCode='USD\n}
+2019-09-16 01:04:26,230 [Thread-32] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,231 [Thread-66] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=31.42, currencyCode='USD\n}
+2019-09-16 01:04:26,231 [Thread-66] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=268.88, currencyCode='USD\n}
+2019-09-16 01:04:26,232 [Thread-66] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,232 [Thread-78] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=30.41, currencyCode='USD\n}
+2019-09-16 01:04:26,232 [Thread-78] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=269.89, currencyCode='USD\n}
+2019-09-16 01:04:26,233 [Thread-78] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,233 [Thread-74] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=29.40, currencyCode='USD\n}
+2019-09-16 01:04:26,234 [Thread-74] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=270.90, currencyCode='USD\n}
+2019-09-16 01:04:26,235 [Thread-74] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,244 [Thread-67] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=28.39, currencyCode='USD\n}
+2019-09-16 01:04:26,245 [Thread-67] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=271.91, currencyCode='USD\n}
+2019-09-16 01:04:26,246 [Thread-67] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,246 [Thread-18] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=27.38, currencyCode='USD\n}
+2019-09-16 01:04:26,246 [Thread-18] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=272.92, currencyCode='USD\n}
+2019-09-16 01:04:26,246 [Thread-18] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,250 [Thread-56] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=26.37, currencyCode='USD\n}
+2019-09-16 01:04:26,250 [Thread-56] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=273.93, currencyCode='USD\n}
+2019-09-16 01:04:26,250 [Thread-56] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,251 [Thread-57] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=25.36, currencyCode='USD\n}
+2019-09-16 01:04:26,251 [Thread-57] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=274.94, currencyCode='USD\n}
+2019-09-16 01:04:26,251 [Thread-57] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,253 [Thread-48] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=24.35, currencyCode='USD\n}
+2019-09-16 01:04:26,253 [Thread-48] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=275.95, currencyCode='USD\n}
+2019-09-16 01:04:26,253 [Thread-48] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,254 [Thread-77] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=23.34, currencyCode='USD\n}
+2019-09-16 01:04:26,254 [Thread-77] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=276.96, currencyCode='USD\n}
+2019-09-16 01:04:26,255 [Thread-77] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,258 [Thread-73] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=22.33, currencyCode='USD\n}
+2019-09-16 01:04:26,258 [Thread-73] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=277.97, currencyCode='USD\n}
+2019-09-16 01:04:26,258 [Thread-73] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,264 [Thread-21] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=21.32, currencyCode='USD\n}
+2019-09-16 01:04:26,264 [Thread-21] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=278.98, currencyCode='USD\n}
+2019-09-16 01:04:26,264 [Thread-21] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,273 [Thread-68] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=1, userId='1\n, balance=20.31, currencyCode='USD\n}
+2019-09-16 01:04:26,273 [Thread-68] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=2, userId='2\n, balance=279.99, currencyCode='USD\n}
+2019-09-16 01:04:26,274 [Thread-68] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,275 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=1, userId='1\n, balance=19.30, currencyCode='USD\n}
+2019-09-16 01:04:26,275 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=2, userId='2\n, balance=281.00, currencyCode='USD\n}
+2019-09-16 01:04:26,275 [main] [DEBUG] [TestAccountDAO] Account From: Account{accountId=1, userId='1\n, balance=19.30, currencyCode='USD\n}
+2019-09-16 01:04:26,275 [main] [DEBUG] [TestAccountDAO] Account To: Account{accountId=2, userId='2\n, balance=281.00, currencyCode='USD\n}
+2019-09-16 01:04:26,276 [main] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=4, userId='1\n, balance=400.40, currencyCode='EUR\n}
+2019-09-16 01:04:26,277 [main] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=5, userId='2\n, balance=500.50, currencyCode='EUR\n}
+2019-09-16 01:04:26,278 [main] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:26,279 [main] [INFO ] [TestAccountDAO] TransferAccountBalance finished, time taken: 3ms
+2019-09-16 01:04:26,279 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=4, userId='1\n, balance=300.41, currencyCode='EUR\n}
+2019-09-16 01:04:26,279 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=5, userId='2\n, balance=600.49, currencyCode='EUR\n}
+2019-09-16 01:04:26,279 [main] [DEBUG] [TestAccountDAO] Account From: Account{accountId=4, userId='1\n, balance=300.41, currencyCode='EUR\n}
+2019-09-16 01:04:26,279 [main] [DEBUG] [TestAccountDAO] Account To: Account{accountId=5, userId='2\n, balance=600.49, currencyCode='EUR\n}
+2019-09-16 01:04:26,280 [main] [DEBUG] [TestAccountDAO] Locked Account: Account{accountId=5, userId='2\n, balance=600.49, currencyCode='EUR\n}
+2019-09-16 01:04:26,281 [main] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=6, userId='3\n, balance=600.60, currencyCode='EUR\n}
+2019-09-16 01:04:28,284 [main] [ERROR] [AccountDAOImpl] transferAccountBalance(): User Transaction Failed, rollback initiated for: UserTransaction{currencyCode='GBP\n, amount=50.00, fromAccountId=6, toAccountId=5n\}
+org.h2.jdbc.JdbcSQLException: Timeout trying to lock table ; SQL statement:
+SELECT AccountId,UserId,Balance,CurrencyCode FROM Account WHERE AccountId = ? FOR UPDATE [50200-192]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.command.Command.filterConcurrentUpdate(Command.java:307)
+	at org.h2.command.Command.executeQuery(Command.java:203)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:110)
+	at com.resttransfer.dao.impl.AccountDAOImpl.transferAccountBalance(AccountDAOImpl.java:181)
+	at com.resttransfer.dao.TestAccountBalance.testTransferFailOnDBLock(TestAccountBalance.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.h2.jdbc.JdbcSQLException: Concurrent update in table "ACCOUNT": another transaction has updated or deleted the same row [90131-192]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.mvstore.db.MVTable.convertException(MVTable.java:898)
+	at org.h2.mvstore.db.MVPrimaryIndex.remove(MVPrimaryIndex.java:168)
+	at org.h2.mvstore.db.MVTable.removeRow(MVTable.java:677)
+	at org.h2.table.TableFilter.lockRows(TableFilter.java:1156)
+	at org.h2.command.dml.Select.queryFlat(Select.java:565)
+	at org.h2.command.dml.Select.queryWithoutCache(Select.java:654)
+	at org.h2.command.dml.Query.query(Query.java:341)
+	at org.h2.command.dml.Query.query(Query.java:309)
+	at org.h2.command.dml.Query.query(Query.java:36)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:110)
+	at org.h2.command.Command.executeQuery(Command.java:201)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Entry is locked [1.4.192/101]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:773)
+	at org.h2.mvstore.db.TransactionStore$TransactionMap.set(TransactionStore.java:1031)
+	at org.h2.mvstore.db.TransactionStore$TransactionMap.remove(TransactionStore.java:989)
+	at org.h2.mvstore.db.MVPrimaryIndex.remove(MVPrimaryIndex.java:162)
+	... 43 more
+2019-09-16 01:04:28,291 [main] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=5, userId='2\n, balance=600.49, currencyCode='EUR\n}
+2019-09-16 01:04:28,296 [main] [DEBUG] [TestUserDAO] setting up test database and sample data....
+2019-09-16 01:04:28,296 [main] [INFO ] [DataBaseImpl] Inserting test data
+2019-09-16 01:04:28,304 [main] [DEBUG] [UserDAOImpl] Retrieve User: User{userId=1, userName='ivanov}
+2019-09-16 01:04:28,304 [main] [DEBUG] [UserDAOImpl] Retrieve User: User{userId=2, userName='petrov}
+2019-09-16 01:04:28,304 [main] [DEBUG] [UserDAOImpl] Retrieve User: User{userId=3, userName='sidorov}
+2019-09-16 01:04:28,307 [main] [DEBUG] [UserDAOImpl] Retrieve User: User{userId=4, userName='test}
+2019-09-16 01:04:28,307 [main] [DEBUG] [UserDAOImpl] Retrieve User: User{userId=2, userName='petrov}
+2019-09-16 01:04:28,673 [main] [INFO ] [DataBaseImpl] Inserting test data
+2019-09-16 01:04:29,146 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:29,155 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:29,156 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 200]
+2019-09-16 01:04:29,169 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
+2019-09-16 01:04:29,170 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:29,174 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:29,180 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58609<->127.0.0.1:8081
+2019-09-16 01:04:29,180 [main] [DEBUG] [MainClientExec] Executing request POST /transaction HTTP/1.1
+2019-09-16 01:04:29,180 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:29,181 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:29,184 [main] [DEBUG] [headers] http-outgoing-0 >> POST /transaction HTTP/1.1
+2019-09-16 01:04:29,184 [main] [DEBUG] [headers] http-outgoing-0 >> Content-type: application/json
+2019-09-16 01:04:29,184 [main] [DEBUG] [headers] http-outgoing-0 >> Content-Length: 74
+2019-09-16 01:04:29,184 [main] [DEBUG] [headers] http-outgoing-0 >> Host: localhost:8081
+2019-09-16 01:04:29,184 [main] [DEBUG] [headers] http-outgoing-0 >> Connection: Keep-Alive
+2019-09-16 01:04:29,184 [main] [DEBUG] [headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:29,184 [main] [DEBUG] [headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "POST /transaction HTTP/1.1[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "Content-Length: 74[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "[\r][\n]"
+2019-09-16 01:04:29,185 [main] [DEBUG] [wire] http-outgoing-0 >> "{"currencyCode":"EUR","amount":10000.00,"fromAccountId":3,"toAccountId":4}"
+2019-09-16 01:04:29,933 [qtp576936864-95] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=3, userId='3\n, balance=300.30, currencyCode='USD\n}
+2019-09-16 01:04:29,933 [qtp576936864-95] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=4, userId='1\n, balance=400.40, currencyCode='EUR\n}
+2019-09-16 01:04:29,934 [qtp576936864-95] [DEBUG] [ServiceExceptionMapper] Mapping exception to Response....
+2019-09-16 01:04:29,953 [main] [DEBUG] [wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2019-09-16 01:04:29,953 [main] [DEBUG] [wire] http-outgoing-0 << "Date: Sun, 15 Sep 2019 22:04:29 GMT[\r][\n]"
+2019-09-16 01:04:29,953 [main] [DEBUG] [wire] http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:29,953 [main] [DEBUG] [wire] http-outgoing-0 << "Content-Length: 92[\r][\n]"
+2019-09-16 01:04:29,953 [main] [DEBUG] [wire] http-outgoing-0 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:29,953 [main] [DEBUG] [wire] http-outgoing-0 << "[\r][\n]"
+2019-09-16 01:04:29,953 [main] [DEBUG] [wire] http-outgoing-0 << "{"errorCode":"Fail to transfer Fund, transaction ccy are different from source/destination"}"
+2019-09-16 01:04:29,956 [main] [DEBUG] [headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2019-09-16 01:04:29,956 [main] [DEBUG] [headers] http-outgoing-0 << Date: Sun, 15 Sep 2019 22:04:29 GMT
+2019-09-16 01:04:29,956 [main] [DEBUG] [headers] http-outgoing-0 << Content-Type: application/json
+2019-09-16 01:04:29,956 [main] [DEBUG] [headers] http-outgoing-0 << Content-Length: 92
+2019-09-16 01:04:29,956 [main] [DEBUG] [headers] http-outgoing-0 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:29,960 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:29,969 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:29,969 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:29,969 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
+2019-09-16 01:04:29,969 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 1][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:29,969 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:29,969 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:29,975 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58610<->127.0.0.1:8081
+2019-09-16 01:04:29,975 [main] [DEBUG] [MainClientExec] Executing request POST /transaction HTTP/1.1
+2019-09-16 01:04:29,975 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:29,975 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:29,975 [main] [DEBUG] [headers] http-outgoing-1 >> POST /transaction HTTP/1.1
+2019-09-16 01:04:29,975 [main] [DEBUG] [headers] http-outgoing-1 >> Content-type: application/json
+2019-09-16 01:04:29,975 [main] [DEBUG] [headers] http-outgoing-1 >> Content-Length: 71
+2019-09-16 01:04:29,975 [main] [DEBUG] [headers] http-outgoing-1 >> Host: localhost:8081
+2019-09-16 01:04:29,975 [main] [DEBUG] [headers] http-outgoing-1 >> Connection: Keep-Alive
+2019-09-16 01:04:29,975 [main] [DEBUG] [headers] http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:29,975 [main] [DEBUG] [headers] http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "POST /transaction HTTP/1.1[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-Length: 71[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "[\r][\n]"
+2019-09-16 01:04:29,975 [main] [DEBUG] [wire] http-outgoing-1 >> "{"currencyCode":"EUR","amount":10.00,"fromAccountId":4,"toAccountId":5}"
+2019-09-16 01:04:29,978 [qtp576936864-96] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=4, userId='1\n, balance=400.40, currencyCode='EUR\n}
+2019-09-16 01:04:29,978 [qtp576936864-96] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=5, userId='2\n, balance=500.50, currencyCode='EUR\n}
+2019-09-16 01:04:29,979 [qtp576936864-96] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:04:29,980 [main] [DEBUG] [wire] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:29,981 [main] [DEBUG] [wire] http-outgoing-1 << "Date: Sun, 15 Sep 2019 22:04:29 GMT[\r][\n]"
+2019-09-16 01:04:29,981 [main] [DEBUG] [wire] http-outgoing-1 << "Content-Length: 0[\r][\n]"
+2019-09-16 01:04:29,981 [main] [DEBUG] [wire] http-outgoing-1 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:29,981 [main] [DEBUG] [wire] http-outgoing-1 << "[\r][\n]"
+2019-09-16 01:04:29,981 [main] [DEBUG] [headers] http-outgoing-1 << HTTP/1.1 200 OK
+2019-09-16 01:04:29,981 [main] [DEBUG] [headers] http-outgoing-1 << Date: Sun, 15 Sep 2019 22:04:29 GMT
+2019-09-16 01:04:29,981 [main] [DEBUG] [headers] http-outgoing-1 << Content-Length: 0
+2019-09-16 01:04:29,981 [main] [DEBUG] [headers] http-outgoing-1 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:29,981 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:29,981 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 1][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:29,981 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 1][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:29,982 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:29,982 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:29,982 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:29,982 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 1][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:29,982 [main] [DEBUG] [MainClientExec] Executing request PUT /account/2/withdraw/100 HTTP/1.1
+2019-09-16 01:04:29,982 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:29,982 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:29,982 [main] [DEBUG] [headers] http-outgoing-1 >> PUT /account/2/withdraw/100 HTTP/1.1
+2019-09-16 01:04:29,982 [main] [DEBUG] [headers] http-outgoing-1 >> Content-type: application/json
+2019-09-16 01:04:29,982 [main] [DEBUG] [headers] http-outgoing-1 >> Content-Length: 0
+2019-09-16 01:04:29,983 [main] [DEBUG] [headers] http-outgoing-1 >> Host: localhost:8081
+2019-09-16 01:04:29,983 [main] [DEBUG] [headers] http-outgoing-1 >> Connection: Keep-Alive
+2019-09-16 01:04:29,983 [main] [DEBUG] [headers] http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:29,983 [main] [DEBUG] [headers] http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "PUT /account/2/withdraw/100 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-Length: 0[\r][\n]"
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:29,983 [main] [DEBUG] [wire] http-outgoing-1 >> "[\r][\n]"
+2019-09-16 01:04:29,991 [qtp576936864-97] [DEBUG] [AccountService] Withdraw service: delta change to account  -100 Account ID = 2
+2019-09-16 01:04:29,991 [qtp576936864-97] [DEBUG] [AccountDAOImpl] updateAccountBalance from Account: Account{accountId=2, userId='2\n, balance=200.20, currencyCode='USD\n}
+2019-09-16 01:04:29,991 [qtp576936864-97] [DEBUG] [AccountDAOImpl] New Balance after Update: Account{accountId=2, userId='2\n, balance=200.20, currencyCode='USD\n}
+2019-09-16 01:04:29,992 [qtp576936864-97] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=2, userId='2\n, balance=100.20, currencyCode='USD\n}
+2019-09-16 01:04:29,997 [main] [DEBUG] [wire] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:29,998 [main] [DEBUG] [wire] http-outgoing-1 << "Date: Sun, 15 Sep 2019 22:04:29 GMT[\r][\n]"
+2019-09-16 01:04:29,998 [main] [DEBUG] [wire] http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:29,998 [main] [DEBUG] [wire] http-outgoing-1 << "Content-Length: 50[\r][\n]"
+2019-09-16 01:04:29,998 [main] [DEBUG] [wire] http-outgoing-1 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:29,998 [main] [DEBUG] [wire] http-outgoing-1 << "[\r][\n]"
+2019-09-16 01:04:29,998 [main] [DEBUG] [wire] http-outgoing-1 << "{"userId":2,"balance":100.20,"currencyCode":"USD"}"
+2019-09-16 01:04:29,998 [main] [DEBUG] [headers] http-outgoing-1 << HTTP/1.1 200 OK
+2019-09-16 01:04:29,998 [main] [DEBUG] [headers] http-outgoing-1 << Date: Sun, 15 Sep 2019 22:04:29 GMT
+2019-09-16 01:04:29,998 [main] [DEBUG] [headers] http-outgoing-1 << Content-Type: application/json
+2019-09-16 01:04:29,998 [main] [DEBUG] [headers] http-outgoing-1 << Content-Length: 50
+2019-09-16 01:04:29,998 [main] [DEBUG] [headers] http-outgoing-1 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:29,998 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,000 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 1][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,000 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 1][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:30,004 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,004 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,004 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:30,004 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 1][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:30,004 [main] [DEBUG] [MainClientExec] Executing request PUT /account/2/withdraw/1000.23456 HTTP/1.1
+2019-09-16 01:04:30,004 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,004 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,004 [main] [DEBUG] [headers] http-outgoing-1 >> PUT /account/2/withdraw/1000.23456 HTTP/1.1
+2019-09-16 01:04:30,004 [main] [DEBUG] [headers] http-outgoing-1 >> Content-type: application/json
+2019-09-16 01:04:30,004 [main] [DEBUG] [headers] http-outgoing-1 >> Content-Length: 0
+2019-09-16 01:04:30,005 [main] [DEBUG] [headers] http-outgoing-1 >> Host: localhost:8081
+2019-09-16 01:04:30,005 [main] [DEBUG] [headers] http-outgoing-1 >> Connection: Keep-Alive
+2019-09-16 01:04:30,005 [main] [DEBUG] [headers] http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,005 [main] [DEBUG] [headers] http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "PUT /account/2/withdraw/1000.23456 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-Length: 0[\r][\n]"
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,005 [main] [DEBUG] [wire] http-outgoing-1 >> "[\r][\n]"
+2019-09-16 01:04:30,008 [qtp576936864-98] [DEBUG] [AccountService] Withdraw service: delta change to account  -1000.23456 Account ID = 2
+2019-09-16 01:04:30,009 [qtp576936864-98] [DEBUG] [AccountDAOImpl] updateAccountBalance from Account: Account{accountId=2, userId='2\n, balance=100.20, currencyCode='USD\n}
+2019-09-16 01:04:30,009 [qtp576936864-98] [DEBUG] [ServiceExceptionMapper] Mapping exception to Response....
+2019-09-16 01:04:30,010 [main] [DEBUG] [wire] http-outgoing-1 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2019-09-16 01:04:30,010 [main] [DEBUG] [wire] http-outgoing-1 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,010 [main] [DEBUG] [wire] http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:30,010 [main] [DEBUG] [wire] http-outgoing-1 << "Content-Length: 50[\r][\n]"
+2019-09-16 01:04:30,010 [main] [DEBUG] [wire] http-outgoing-1 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,010 [main] [DEBUG] [wire] http-outgoing-1 << "[\r][\n]"
+2019-09-16 01:04:30,010 [main] [DEBUG] [wire] http-outgoing-1 << "{"errorCode":"Not sufficient Fund for account: 2"}"
+2019-09-16 01:04:30,010 [main] [DEBUG] [headers] http-outgoing-1 << HTTP/1.1 500 Internal Server Error
+2019-09-16 01:04:30,010 [main] [DEBUG] [headers] http-outgoing-1 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,010 [main] [DEBUG] [headers] http-outgoing-1 << Content-Type: application/json
+2019-09-16 01:04:30,010 [main] [DEBUG] [headers] http-outgoing-1 << Content-Length: 50
+2019-09-16 01:04:30,010 [main] [DEBUG] [headers] http-outgoing-1 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,010 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,011 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 1][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,011 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 1][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:30,013 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,013 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,013 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:30,013 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 1][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:30,013 [main] [DEBUG] [MainClientExec] Executing request POST /transaction HTTP/1.1
+2019-09-16 01:04:30,013 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,013 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,013 [main] [DEBUG] [headers] http-outgoing-1 >> POST /transaction HTTP/1.1
+2019-09-16 01:04:30,013 [main] [DEBUG] [headers] http-outgoing-1 >> Content-type: application/json
+2019-09-16 01:04:30,013 [main] [DEBUG] [headers] http-outgoing-1 >> Content-Length: 72
+2019-09-16 01:04:30,013 [main] [DEBUG] [headers] http-outgoing-1 >> Host: localhost:8081
+2019-09-16 01:04:30,013 [main] [DEBUG] [headers] http-outgoing-1 >> Connection: Keep-Alive
+2019-09-16 01:04:30,013 [main] [DEBUG] [headers] http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,013 [main] [DEBUG] [headers] http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "POST /transaction HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "Content-Length: 72[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "[\r][\n]"
+2019-09-16 01:04:30,014 [main] [DEBUG] [wire] http-outgoing-1 >> "{"currencyCode":"USD","amount":100.00,"fromAccountId":3,"toAccountId":4}"
+2019-09-16 01:04:30,016 [qtp576936864-99] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=3, userId='3\n, balance=300.30, currencyCode='USD\n}
+2019-09-16 01:04:30,016 [qtp576936864-99] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=4, userId='1\n, balance=390.40, currencyCode='EUR\n}
+2019-09-16 01:04:30,017 [qtp576936864-99] [DEBUG] [ServiceExceptionMapper] Mapping exception to Response....
+2019-09-16 01:04:30,019 [main] [DEBUG] [wire] http-outgoing-1 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2019-09-16 01:04:30,019 [main] [DEBUG] [wire] http-outgoing-1 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,019 [main] [DEBUG] [wire] http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:30,019 [main] [DEBUG] [wire] http-outgoing-1 << "Content-Length: 99[\r][\n]"
+2019-09-16 01:04:30,019 [main] [DEBUG] [wire] http-outgoing-1 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,019 [main] [DEBUG] [wire] http-outgoing-1 << "[\r][\n]"
+2019-09-16 01:04:30,019 [main] [DEBUG] [wire] http-outgoing-1 << "{"errorCode":"Fail to transfer Fund, the source and destination account are in different currency"}"
+2019-09-16 01:04:30,019 [main] [DEBUG] [headers] http-outgoing-1 << HTTP/1.1 500 Internal Server Error
+2019-09-16 01:04:30,019 [main] [DEBUG] [headers] http-outgoing-1 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,019 [main] [DEBUG] [headers] http-outgoing-1 << Content-Type: application/json
+2019-09-16 01:04:30,019 [main] [DEBUG] [headers] http-outgoing-1 << Content-Length: 99
+2019-09-16 01:04:30,019 [main] [DEBUG] [headers] http-outgoing-1 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,019 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,019 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,020 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,020 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 2 of 100; total allocated: 2 of 200]
+2019-09-16 01:04:30,020 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 2][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,020 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:30,020 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:30,020 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58611<->127.0.0.1:8081
+2019-09-16 01:04:30,020 [main] [DEBUG] [MainClientExec] Executing request PUT /account/1/deposit/100 HTTP/1.1
+2019-09-16 01:04:30,020 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,020 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,020 [main] [DEBUG] [headers] http-outgoing-2 >> PUT /account/1/deposit/100 HTTP/1.1
+2019-09-16 01:04:30,020 [main] [DEBUG] [headers] http-outgoing-2 >> Content-type: application/json
+2019-09-16 01:04:30,020 [main] [DEBUG] [headers] http-outgoing-2 >> Content-Length: 0
+2019-09-16 01:04:30,020 [main] [DEBUG] [headers] http-outgoing-2 >> Host: localhost:8081
+2019-09-16 01:04:30,020 [main] [DEBUG] [headers] http-outgoing-2 >> Connection: Keep-Alive
+2019-09-16 01:04:30,020 [main] [DEBUG] [headers] http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,020 [main] [DEBUG] [headers] http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,020 [main] [DEBUG] [wire] http-outgoing-2 >> "PUT /account/1/deposit/100 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,021 [main] [DEBUG] [wire] http-outgoing-2 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,021 [main] [DEBUG] [wire] http-outgoing-2 >> "Content-Length: 0[\r][\n]"
+2019-09-16 01:04:30,021 [main] [DEBUG] [wire] http-outgoing-2 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,021 [main] [DEBUG] [wire] http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,021 [main] [DEBUG] [wire] http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,021 [main] [DEBUG] [wire] http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,021 [main] [DEBUG] [wire] http-outgoing-2 >> "[\r][\n]"
+2019-09-16 01:04:30,023 [qtp576936864-95] [DEBUG] [AccountDAOImpl] updateAccountBalance from Account: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:30,024 [qtp576936864-95] [DEBUG] [AccountDAOImpl] New Balance after Update: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:30,024 [qtp576936864-95] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=1, userId='1\n, balance=200.10, currencyCode='USD\n}
+2019-09-16 01:04:30,025 [main] [DEBUG] [wire] http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,025 [main] [DEBUG] [wire] http-outgoing-2 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,025 [main] [DEBUG] [wire] http-outgoing-2 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:30,025 [main] [DEBUG] [wire] http-outgoing-2 << "Content-Length: 50[\r][\n]"
+2019-09-16 01:04:30,025 [main] [DEBUG] [wire] http-outgoing-2 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,025 [main] [DEBUG] [wire] http-outgoing-2 << "[\r][\n]"
+2019-09-16 01:04:30,025 [main] [DEBUG] [wire] http-outgoing-2 << "{"userId":1,"balance":200.10,"currencyCode":"USD"}"
+2019-09-16 01:04:30,025 [main] [DEBUG] [headers] http-outgoing-2 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,025 [main] [DEBUG] [headers] http-outgoing-2 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,025 [main] [DEBUG] [headers] http-outgoing-2 << Content-Type: application/json
+2019-09-16 01:04:30,025 [main] [DEBUG] [headers] http-outgoing-2 << Content-Length: 50
+2019-09-16 01:04:30,025 [main] [DEBUG] [headers] http-outgoing-2 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,025 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,025 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 2][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,026 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 2][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,028 [main] [INFO ] [DataBaseImpl] Inserting test data
+2019-09-16 01:04:30,032 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,032 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,032 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,033 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 2][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,033 [main] [DEBUG] [MainClientExec] Executing request PUT /user/1 HTTP/1.1
+2019-09-16 01:04:30,033 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,033 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,033 [main] [DEBUG] [headers] http-outgoing-2 >> PUT /user/1 HTTP/1.1
+2019-09-16 01:04:30,033 [main] [DEBUG] [headers] http-outgoing-2 >> Content-type: application/json
+2019-09-16 01:04:30,033 [main] [DEBUG] [headers] http-outgoing-2 >> Content-Length: 20
+2019-09-16 01:04:30,033 [main] [DEBUG] [headers] http-outgoing-2 >> Host: localhost:8081
+2019-09-16 01:04:30,033 [main] [DEBUG] [headers] http-outgoing-2 >> Connection: Keep-Alive
+2019-09-16 01:04:30,033 [main] [DEBUG] [headers] http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,033 [main] [DEBUG] [headers] http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "PUT /user/1 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "Content-Length: 20[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "[\r][\n]"
+2019-09-16 01:04:30,033 [main] [DEBUG] [wire] http-outgoing-2 >> "{"userName":"test1"}"
+2019-09-16 01:04:30,042 [main] [DEBUG] [wire] http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,042 [main] [DEBUG] [wire] http-outgoing-2 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,042 [main] [DEBUG] [wire] http-outgoing-2 << "Content-Length: 0[\r][\n]"
+2019-09-16 01:04:30,042 [main] [DEBUG] [wire] http-outgoing-2 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,042 [main] [DEBUG] [wire] http-outgoing-2 << "[\r][\n]"
+2019-09-16 01:04:30,042 [main] [DEBUG] [headers] http-outgoing-2 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,042 [main] [DEBUG] [headers] http-outgoing-2 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,042 [main] [DEBUG] [headers] http-outgoing-2 << Content-Length: 0
+2019-09-16 01:04:30,042 [main] [DEBUG] [headers] http-outgoing-2 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,042 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,043 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 2][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,043 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 2][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,044 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,044 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,045 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,045 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 2][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,045 [main] [DEBUG] [MainClientExec] Executing request GET /user/notFound HTTP/1.1
+2019-09-16 01:04:30,045 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,045 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,045 [main] [DEBUG] [headers] http-outgoing-2 >> GET /user/notFound HTTP/1.1
+2019-09-16 01:04:30,045 [main] [DEBUG] [headers] http-outgoing-2 >> Host: localhost:8081
+2019-09-16 01:04:30,045 [main] [DEBUG] [headers] http-outgoing-2 >> Connection: Keep-Alive
+2019-09-16 01:04:30,045 [main] [DEBUG] [headers] http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,045 [main] [DEBUG] [headers] http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,045 [main] [DEBUG] [wire] http-outgoing-2 >> "GET /user/notFound HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,045 [main] [DEBUG] [wire] http-outgoing-2 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,045 [main] [DEBUG] [wire] http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,045 [main] [DEBUG] [wire] http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,045 [main] [DEBUG] [wire] http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,045 [main] [DEBUG] [wire] http-outgoing-2 >> "[\r][\n]"
+2019-09-16 01:04:30,047 [qtp576936864-97] [DEBUG] [UserService] Request Received for get User by Name notFound
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "HTTP/1.1 404 Not Found[\r][\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "Content-Length: 291[\r][\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "[\r][\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<html>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<head>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<title>Error 404 </title>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "</head>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<body>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<h2>HTTP ERROR: 404</h2>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<p>Problem accessing /user/notFound. Reason:[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<pre>    Not Found</pre></p>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "<hr /><i><small>Powered by Jetty://</small></i>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "</body>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [wire] http-outgoing-2 << "</html>[\n]"
+2019-09-16 01:04:30,051 [main] [DEBUG] [headers] http-outgoing-2 << HTTP/1.1 404 Not Found
+2019-09-16 01:04:30,051 [main] [DEBUG] [headers] http-outgoing-2 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,051 [main] [DEBUG] [headers] http-outgoing-2 << Cache-Control: must-revalidate,no-cache,no-store
+2019-09-16 01:04:30,051 [main] [DEBUG] [headers] http-outgoing-2 << Content-Type: text/html; charset=ISO-8859-1
+2019-09-16 01:04:30,051 [main] [DEBUG] [headers] http-outgoing-2 << Content-Length: 291
+2019-09-16 01:04:30,051 [main] [DEBUG] [headers] http-outgoing-2 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,051 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,052 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,052 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,052 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 3 of 100; total allocated: 3 of 200]
+2019-09-16 01:04:30,052 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 3][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 4 of 100; total allocated: 4 of 200]
+2019-09-16 01:04:30,052 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:30,053 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:30,053 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58612<->127.0.0.1:8081
+2019-09-16 01:04:30,053 [main] [DEBUG] [MainClientExec] Executing request POST /user/create HTTP/1.1
+2019-09-16 01:04:30,053 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,053 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,053 [main] [DEBUG] [headers] http-outgoing-3 >> POST /user/create HTTP/1.1
+2019-09-16 01:04:30,053 [main] [DEBUG] [headers] http-outgoing-3 >> Content-type: application/json
+2019-09-16 01:04:30,053 [main] [DEBUG] [headers] http-outgoing-3 >> Content-Length: 21
+2019-09-16 01:04:30,054 [main] [DEBUG] [headers] http-outgoing-3 >> Host: localhost:8081
+2019-09-16 01:04:30,054 [main] [DEBUG] [headers] http-outgoing-3 >> Connection: Keep-Alive
+2019-09-16 01:04:30,054 [main] [DEBUG] [headers] http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,054 [main] [DEBUG] [headers] http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "POST /user/create HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "Content-Length: 21[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "[\r][\n]"
+2019-09-16 01:04:30,054 [main] [DEBUG] [wire] http-outgoing-3 >> "{"userName":"test12"}"
+2019-09-16 01:04:30,058 [qtp576936864-98] [DEBUG] [UserDAOImpl] Retrieve User: User{userId=4, userName='test12}
+2019-09-16 01:04:30,060 [main] [DEBUG] [wire] http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,060 [main] [DEBUG] [wire] http-outgoing-3 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,060 [main] [DEBUG] [wire] http-outgoing-3 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:30,060 [main] [DEBUG] [wire] http-outgoing-3 << "Content-Length: 21[\r][\n]"
+2019-09-16 01:04:30,060 [main] [DEBUG] [wire] http-outgoing-3 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,060 [main] [DEBUG] [wire] http-outgoing-3 << "[\r][\n]"
+2019-09-16 01:04:30,060 [main] [DEBUG] [wire] http-outgoing-3 << "{"userName":"test12"}"
+2019-09-16 01:04:30,060 [main] [DEBUG] [headers] http-outgoing-3 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,060 [main] [DEBUG] [headers] http-outgoing-3 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,060 [main] [DEBUG] [headers] http-outgoing-3 << Content-Type: application/json
+2019-09-16 01:04:30,060 [main] [DEBUG] [headers] http-outgoing-3 << Content-Length: 21
+2019-09-16 01:04:30,060 [main] [DEBUG] [headers] http-outgoing-3 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,060 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,060 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 3][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,061 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 3][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 4 of 100; total allocated: 4 of 200]
+2019-09-16 01:04:30,062 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,062 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,062 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 4 of 100; total allocated: 4 of 200]
+2019-09-16 01:04:30,062 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 3][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 4 of 100; total allocated: 4 of 200]
+2019-09-16 01:04:30,063 [main] [DEBUG] [MainClientExec] Executing request DELETE /user/300 HTTP/1.1
+2019-09-16 01:04:30,063 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,063 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,063 [main] [DEBUG] [headers] http-outgoing-3 >> DELETE /user/300 HTTP/1.1
+2019-09-16 01:04:30,063 [main] [DEBUG] [headers] http-outgoing-3 >> Content-type: application/json
+2019-09-16 01:04:30,063 [main] [DEBUG] [headers] http-outgoing-3 >> Host: localhost:8081
+2019-09-16 01:04:30,063 [main] [DEBUG] [headers] http-outgoing-3 >> Connection: Keep-Alive
+2019-09-16 01:04:30,063 [main] [DEBUG] [headers] http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,063 [main] [DEBUG] [headers] http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,063 [main] [DEBUG] [wire] http-outgoing-3 >> "DELETE /user/300 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,063 [main] [DEBUG] [wire] http-outgoing-3 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,063 [main] [DEBUG] [wire] http-outgoing-3 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,063 [main] [DEBUG] [wire] http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,063 [main] [DEBUG] [wire] http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,063 [main] [DEBUG] [wire] http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,063 [main] [DEBUG] [wire] http-outgoing-3 >> "[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "HTTP/1.1 404 Not Found[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "Content-Length: 286[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "[\r][\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<html>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<head>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<title>Error 404 </title>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "</head>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<body>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<h2>HTTP ERROR: 404</h2>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<p>Problem accessing /user/300. Reason:[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<pre>    Not Found</pre></p>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "<hr /><i><small>Powered by Jetty://</small></i>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "</body>[\n]"
+2019-09-16 01:04:30,070 [main] [DEBUG] [wire] http-outgoing-3 << "</html>[\n]"
+2019-09-16 01:04:30,071 [main] [DEBUG] [headers] http-outgoing-3 << HTTP/1.1 404 Not Found
+2019-09-16 01:04:30,071 [main] [DEBUG] [headers] http-outgoing-3 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,071 [main] [DEBUG] [headers] http-outgoing-3 << Cache-Control: must-revalidate,no-cache,no-store
+2019-09-16 01:04:30,071 [main] [DEBUG] [headers] http-outgoing-3 << Content-Type: text/html; charset=ISO-8859-1
+2019-09-16 01:04:30,071 [main] [DEBUG] [headers] http-outgoing-3 << Content-Length: 286
+2019-09-16 01:04:30,071 [main] [DEBUG] [headers] http-outgoing-3 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,071 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,072 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,072 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,072 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 4 of 100; total allocated: 4 of 200]
+2019-09-16 01:04:30,072 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 4][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 5 of 100; total allocated: 5 of 200]
+2019-09-16 01:04:30,072 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:30,072 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:30,072 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58613<->127.0.0.1:8081
+2019-09-16 01:04:30,072 [main] [DEBUG] [MainClientExec] Executing request POST /user/create HTTP/1.1
+2019-09-16 01:04:30,072 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,072 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,072 [main] [DEBUG] [headers] http-outgoing-4 >> POST /user/create HTTP/1.1
+2019-09-16 01:04:30,072 [main] [DEBUG] [headers] http-outgoing-4 >> Content-type: application/json
+2019-09-16 01:04:30,072 [main] [DEBUG] [headers] http-outgoing-4 >> Content-Length: 20
+2019-09-16 01:04:30,072 [main] [DEBUG] [headers] http-outgoing-4 >> Host: localhost:8081
+2019-09-16 01:04:30,072 [main] [DEBUG] [headers] http-outgoing-4 >> Connection: Keep-Alive
+2019-09-16 01:04:30,072 [main] [DEBUG] [headers] http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,073 [main] [DEBUG] [headers] http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "POST /user/create HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "Content-Length: 20[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "[\r][\n]"
+2019-09-16 01:04:30,073 [main] [DEBUG] [wire] http-outgoing-4 >> "{"userName":"test1"}"
+2019-09-16 01:04:30,075 [qtp576936864-95] [DEBUG] [UserDAOImpl] Retrieve User: User{userId=1, userName='test1}
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "HTTP/1.1 400 Bad Request[\r][\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "Content-Length: 291[\r][\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "[\r][\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "<html>[\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "<head>[\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>[\n]"
+2019-09-16 01:04:30,075 [main] [DEBUG] [wire] http-outgoing-4 << "<title>Error 400 </title>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "</head>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "<body>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "<h2>HTTP ERROR: 400</h2>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "<p>Problem accessing /user/create. Reason:[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "<pre>    Bad Request</pre></p>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "<hr /><i><small>Powered by Jetty://</small></i>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "</body>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [wire] http-outgoing-4 << "</html>[\n]"
+2019-09-16 01:04:30,076 [main] [DEBUG] [headers] http-outgoing-4 << HTTP/1.1 400 Bad Request
+2019-09-16 01:04:30,076 [main] [DEBUG] [headers] http-outgoing-4 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,076 [main] [DEBUG] [headers] http-outgoing-4 << Cache-Control: must-revalidate,no-cache,no-store
+2019-09-16 01:04:30,076 [main] [DEBUG] [headers] http-outgoing-4 << Content-Type: text/html; charset=ISO-8859-1
+2019-09-16 01:04:30,076 [main] [DEBUG] [headers] http-outgoing-4 << Content-Length: 291
+2019-09-16 01:04:30,076 [main] [DEBUG] [headers] http-outgoing-4 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,076 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,076 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,076 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,076 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 5 of 100; total allocated: 5 of 200]
+2019-09-16 01:04:30,076 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 5][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 6 of 100; total allocated: 6 of 200]
+2019-09-16 01:04:30,076 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:30,076 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:30,077 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58614<->127.0.0.1:8081
+2019-09-16 01:04:30,077 [main] [DEBUG] [MainClientExec] Executing request DELETE /user/3 HTTP/1.1
+2019-09-16 01:04:30,077 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,077 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,077 [main] [DEBUG] [headers] http-outgoing-5 >> DELETE /user/3 HTTP/1.1
+2019-09-16 01:04:30,077 [main] [DEBUG] [headers] http-outgoing-5 >> Content-type: application/json
+2019-09-16 01:04:30,077 [main] [DEBUG] [headers] http-outgoing-5 >> Host: localhost:8081
+2019-09-16 01:04:30,077 [main] [DEBUG] [headers] http-outgoing-5 >> Connection: Keep-Alive
+2019-09-16 01:04:30,077 [main] [DEBUG] [headers] http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,077 [main] [DEBUG] [headers] http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,077 [main] [DEBUG] [wire] http-outgoing-5 >> "DELETE /user/3 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,077 [main] [DEBUG] [wire] http-outgoing-5 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,077 [main] [DEBUG] [wire] http-outgoing-5 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,077 [main] [DEBUG] [wire] http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,077 [main] [DEBUG] [wire] http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,078 [main] [DEBUG] [wire] http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,078 [main] [DEBUG] [wire] http-outgoing-5 >> "[\r][\n]"
+2019-09-16 01:04:30,080 [main] [DEBUG] [wire] http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,080 [main] [DEBUG] [wire] http-outgoing-5 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,080 [main] [DEBUG] [wire] http-outgoing-5 << "Content-Length: 0[\r][\n]"
+2019-09-16 01:04:30,080 [main] [DEBUG] [wire] http-outgoing-5 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,080 [main] [DEBUG] [wire] http-outgoing-5 << "[\r][\n]"
+2019-09-16 01:04:30,080 [main] [DEBUG] [headers] http-outgoing-5 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,081 [main] [DEBUG] [headers] http-outgoing-5 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,081 [main] [DEBUG] [headers] http-outgoing-5 << Content-Length: 0
+2019-09-16 01:04:30,081 [main] [DEBUG] [headers] http-outgoing-5 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,081 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,081 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 5][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,081 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 5][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 6 of 100; total allocated: 6 of 200]
+2019-09-16 01:04:30,081 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,081 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,082 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 6 of 100; total allocated: 6 of 200]
+2019-09-16 01:04:30,082 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 5][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 6 of 100; total allocated: 6 of 200]
+2019-09-16 01:04:30,082 [main] [DEBUG] [MainClientExec] Executing request PUT /user/100 HTTP/1.1
+2019-09-16 01:04:30,082 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,082 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,082 [main] [DEBUG] [headers] http-outgoing-5 >> PUT /user/100 HTTP/1.1
+2019-09-16 01:04:30,082 [main] [DEBUG] [headers] http-outgoing-5 >> Content-type: application/json
+2019-09-16 01:04:30,082 [main] [DEBUG] [headers] http-outgoing-5 >> Content-Length: 20
+2019-09-16 01:04:30,082 [main] [DEBUG] [headers] http-outgoing-5 >> Host: localhost:8081
+2019-09-16 01:04:30,082 [main] [DEBUG] [headers] http-outgoing-5 >> Connection: Keep-Alive
+2019-09-16 01:04:30,082 [main] [DEBUG] [headers] http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,082 [main] [DEBUG] [headers] http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "PUT /user/100 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "Content-Length: 20[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "[\r][\n]"
+2019-09-16 01:04:30,082 [main] [DEBUG] [wire] http-outgoing-5 >> "{"userName":"test1"}"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "HTTP/1.1 404 Not Found[\r][\n]"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "Content-Length: 286[\r][\n]"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "[\r][\n]"
+2019-09-16 01:04:30,085 [main] [DEBUG] [wire] http-outgoing-5 << "<html>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<head>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<title>Error 404 </title>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "</head>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<body>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<h2>HTTP ERROR: 404</h2>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<p>Problem accessing /user/100. Reason:[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<pre>    Not Found</pre></p>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "<hr /><i><small>Powered by Jetty://</small></i>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "</body>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [wire] http-outgoing-5 << "</html>[\n]"
+2019-09-16 01:04:30,086 [main] [DEBUG] [headers] http-outgoing-5 << HTTP/1.1 404 Not Found
+2019-09-16 01:04:30,086 [main] [DEBUG] [headers] http-outgoing-5 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,086 [main] [DEBUG] [headers] http-outgoing-5 << Cache-Control: must-revalidate,no-cache,no-store
+2019-09-16 01:04:30,086 [main] [DEBUG] [headers] http-outgoing-5 << Content-Type: text/html; charset=ISO-8859-1
+2019-09-16 01:04:30,086 [main] [DEBUG] [headers] http-outgoing-5 << Content-Length: 286
+2019-09-16 01:04:30,086 [main] [DEBUG] [headers] http-outgoing-5 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,086 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,087 [main] [INFO ] [DataBaseImpl] Inserting test data
+2019-09-16 01:04:30,094 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,094 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,094 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 6 of 100; total allocated: 6 of 200]
+2019-09-16 01:04:30,094 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 6][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 7 of 100; total allocated: 7 of 200]
+2019-09-16 01:04:30,094 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:30,095 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:30,096 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58615<->127.0.0.1:8081
+2019-09-16 01:04:30,096 [main] [DEBUG] [MainClientExec] Executing request PUT /account/create HTTP/1.1
+2019-09-16 01:04:30,096 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,096 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,096 [main] [DEBUG] [headers] http-outgoing-6 >> PUT /account/create HTTP/1.1
+2019-09-16 01:04:30,096 [main] [DEBUG] [headers] http-outgoing-6 >> Content-type: application/json
+2019-09-16 01:04:30,096 [main] [DEBUG] [headers] http-outgoing-6 >> Content-Length: 49
+2019-09-16 01:04:30,096 [main] [DEBUG] [headers] http-outgoing-6 >> Host: localhost:8081
+2019-09-16 01:04:30,096 [main] [DEBUG] [headers] http-outgoing-6 >> Connection: Keep-Alive
+2019-09-16 01:04:30,096 [main] [DEBUG] [headers] http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,096 [main] [DEBUG] [headers] http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "PUT /account/create HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "Content-Length: 49[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "[\r][\n]"
+2019-09-16 01:04:30,096 [main] [DEBUG] [wire] http-outgoing-6 >> "{"userId":4,"balance":10.00,"currencyCode":"CNY"}"
+2019-09-16 01:04:30,103 [qtp576936864-98] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=7, userId='4\n, balance=10.00, currencyCode='CNY\n}
+2019-09-16 01:04:30,103 [main] [DEBUG] [wire] http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,104 [main] [DEBUG] [wire] http-outgoing-6 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,104 [main] [DEBUG] [wire] http-outgoing-6 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:30,104 [main] [DEBUG] [wire] http-outgoing-6 << "Content-Length: 49[\r][\n]"
+2019-09-16 01:04:30,104 [main] [DEBUG] [wire] http-outgoing-6 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,104 [main] [DEBUG] [wire] http-outgoing-6 << "[\r][\n]"
+2019-09-16 01:04:30,104 [main] [DEBUG] [wire] http-outgoing-6 << "{"userId":4,"balance":10.00,"currencyCode":"CNY"}"
+2019-09-16 01:04:30,104 [main] [DEBUG] [headers] http-outgoing-6 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,104 [main] [DEBUG] [headers] http-outgoing-6 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,104 [main] [DEBUG] [headers] http-outgoing-6 << Content-Type: application/json
+2019-09-16 01:04:30,104 [main] [DEBUG] [headers] http-outgoing-6 << Content-Length: 49
+2019-09-16 01:04:30,104 [main] [DEBUG] [headers] http-outgoing-6 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,104 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,104 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 6][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,104 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 6][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 7 of 100; total allocated: 7 of 200]
+2019-09-16 01:04:30,105 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,105 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,105 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 7 of 100; total allocated: 7 of 200]
+2019-09-16 01:04:30,105 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 6][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 7 of 100; total allocated: 7 of 200]
+2019-09-16 01:04:30,106 [main] [DEBUG] [MainClientExec] Executing request DELETE /account/300 HTTP/1.1
+2019-09-16 01:04:30,106 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,106 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,106 [main] [DEBUG] [headers] http-outgoing-6 >> DELETE /account/300 HTTP/1.1
+2019-09-16 01:04:30,106 [main] [DEBUG] [headers] http-outgoing-6 >> Content-type: application/json
+2019-09-16 01:04:30,106 [main] [DEBUG] [headers] http-outgoing-6 >> Host: localhost:8081
+2019-09-16 01:04:30,106 [main] [DEBUG] [headers] http-outgoing-6 >> Connection: Keep-Alive
+2019-09-16 01:04:30,106 [main] [DEBUG] [headers] http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,106 [main] [DEBUG] [headers] http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,106 [main] [DEBUG] [wire] http-outgoing-6 >> "DELETE /account/300 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,106 [main] [DEBUG] [wire] http-outgoing-6 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,106 [main] [DEBUG] [wire] http-outgoing-6 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,106 [main] [DEBUG] [wire] http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,106 [main] [DEBUG] [wire] http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,106 [main] [DEBUG] [wire] http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,106 [main] [DEBUG] [wire] http-outgoing-6 >> "[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "HTTP/1.1 404 Not Found[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "Content-Length: 289[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "[\r][\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<html>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<head>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<title>Error 404 </title>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "</head>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<body>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<h2>HTTP ERROR: 404</h2>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<p>Problem accessing /account/300. Reason:[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<pre>    Not Found</pre></p>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "<hr /><i><small>Powered by Jetty://</small></i>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "</body>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [wire] http-outgoing-6 << "</html>[\n]"
+2019-09-16 01:04:30,109 [main] [DEBUG] [headers] http-outgoing-6 << HTTP/1.1 404 Not Found
+2019-09-16 01:04:30,109 [main] [DEBUG] [headers] http-outgoing-6 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,109 [main] [DEBUG] [headers] http-outgoing-6 << Cache-Control: must-revalidate,no-cache,no-store
+2019-09-16 01:04:30,109 [main] [DEBUG] [headers] http-outgoing-6 << Content-Type: text/html; charset=ISO-8859-1
+2019-09-16 01:04:30,109 [main] [DEBUG] [headers] http-outgoing-6 << Content-Length: 289
+2019-09-16 01:04:30,109 [main] [DEBUG] [headers] http-outgoing-6 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,110 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,110 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,110 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,110 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 7 of 100; total allocated: 7 of 200]
+2019-09-16 01:04:30,110 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 7][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:30,110 [main] [DEBUG] [MainClientExec] Opening connection {}->http://localhost:8081
+2019-09-16 01:04:30,110 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:8081
+2019-09-16 01:04:30,110 [main] [DEBUG] [DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:58616<->127.0.0.1:8081
+2019-09-16 01:04:30,111 [main] [DEBUG] [MainClientExec] Executing request DELETE /account/3 HTTP/1.1
+2019-09-16 01:04:30,111 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,111 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,111 [main] [DEBUG] [headers] http-outgoing-7 >> DELETE /account/3 HTTP/1.1
+2019-09-16 01:04:30,111 [main] [DEBUG] [headers] http-outgoing-7 >> Content-type: application/json
+2019-09-16 01:04:30,111 [main] [DEBUG] [headers] http-outgoing-7 >> Host: localhost:8081
+2019-09-16 01:04:30,111 [main] [DEBUG] [headers] http-outgoing-7 >> Connection: Keep-Alive
+2019-09-16 01:04:30,111 [main] [DEBUG] [headers] http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,111 [main] [DEBUG] [headers] http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,111 [main] [DEBUG] [wire] http-outgoing-7 >> "DELETE /account/3 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,111 [main] [DEBUG] [wire] http-outgoing-7 >> "Content-type: application/json[\r][\n]"
+2019-09-16 01:04:30,111 [main] [DEBUG] [wire] http-outgoing-7 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,111 [main] [DEBUG] [wire] http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,111 [main] [DEBUG] [wire] http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,111 [main] [DEBUG] [wire] http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,111 [main] [DEBUG] [wire] http-outgoing-7 >> "[\r][\n]"
+2019-09-16 01:04:30,114 [main] [DEBUG] [wire] http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,114 [main] [DEBUG] [wire] http-outgoing-7 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,114 [main] [DEBUG] [wire] http-outgoing-7 << "Content-Length: 0[\r][\n]"
+2019-09-16 01:04:30,114 [main] [DEBUG] [wire] http-outgoing-7 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,114 [main] [DEBUG] [wire] http-outgoing-7 << "[\r][\n]"
+2019-09-16 01:04:30,114 [main] [DEBUG] [headers] http-outgoing-7 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,114 [main] [DEBUG] [headers] http-outgoing-7 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,114 [main] [DEBUG] [headers] http-outgoing-7 << Content-Length: 0
+2019-09-16 01:04:30,114 [main] [DEBUG] [headers] http-outgoing-7 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,114 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,114 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 7][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,114 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 7][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:30,115 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,115 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,115 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:30,115 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 7][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:30,115 [main] [DEBUG] [MainClientExec] Executing request GET /account/1 HTTP/1.1
+2019-09-16 01:04:30,115 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,115 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,115 [main] [DEBUG] [headers] http-outgoing-7 >> GET /account/1 HTTP/1.1
+2019-09-16 01:04:30,115 [main] [DEBUG] [headers] http-outgoing-7 >> Host: localhost:8081
+2019-09-16 01:04:30,115 [main] [DEBUG] [headers] http-outgoing-7 >> Connection: Keep-Alive
+2019-09-16 01:04:30,115 [main] [DEBUG] [headers] http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,115 [main] [DEBUG] [headers] http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,115 [main] [DEBUG] [wire] http-outgoing-7 >> "GET /account/1 HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,115 [main] [DEBUG] [wire] http-outgoing-7 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,115 [main] [DEBUG] [wire] http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,115 [main] [DEBUG] [wire] http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,115 [main] [DEBUG] [wire] http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,115 [main] [DEBUG] [wire] http-outgoing-7 >> "[\r][\n]"
+2019-09-16 01:04:30,117 [qtp576936864-96] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:30,118 [main] [DEBUG] [wire] http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,118 [main] [DEBUG] [wire] http-outgoing-7 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,118 [main] [DEBUG] [wire] http-outgoing-7 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:30,118 [main] [DEBUG] [wire] http-outgoing-7 << "Content-Length: 50[\r][\n]"
+2019-09-16 01:04:30,118 [main] [DEBUG] [wire] http-outgoing-7 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,118 [main] [DEBUG] [wire] http-outgoing-7 << "[\r][\n]"
+2019-09-16 01:04:30,118 [main] [DEBUG] [wire] http-outgoing-7 << "{"userId":1,"balance":100.10,"currencyCode":"USD"}"
+2019-09-16 01:04:30,118 [main] [DEBUG] [headers] http-outgoing-7 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,118 [main] [DEBUG] [headers] http-outgoing-7 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,118 [main] [DEBUG] [headers] http-outgoing-7 << Content-Type: application/json
+2019-09-16 01:04:30,118 [main] [DEBUG] [headers] http-outgoing-7 << Content-Length: 50
+2019-09-16 01:04:30,118 [main] [DEBUG] [headers] http-outgoing-7 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,118 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,119 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 7][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,119 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 7][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:30,120 [main] [DEBUG] [RequestAddCookies] CookieSpec selected: default
+2019-09-16 01:04:30,120 [main] [DEBUG] [RequestAuthCache] Auth cache not set in the context
+2019-09-16 01:04:30,120 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:8081][total kept alive: 1; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:30,120 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection leased: [id: 7][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:30,120 [main] [DEBUG] [MainClientExec] Executing request GET /account/1/balance HTTP/1.1
+2019-09-16 01:04:30,120 [main] [DEBUG] [MainClientExec] Target auth state: UNCHALLENGED
+2019-09-16 01:04:30,120 [main] [DEBUG] [MainClientExec] Proxy auth state: UNCHALLENGED
+2019-09-16 01:04:30,120 [main] [DEBUG] [headers] http-outgoing-7 >> GET /account/1/balance HTTP/1.1
+2019-09-16 01:04:30,120 [main] [DEBUG] [headers] http-outgoing-7 >> Host: localhost:8081
+2019-09-16 01:04:30,120 [main] [DEBUG] [headers] http-outgoing-7 >> Connection: Keep-Alive
+2019-09-16 01:04:30,120 [main] [DEBUG] [headers] http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)
+2019-09-16 01:04:30,120 [main] [DEBUG] [headers] http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2019-09-16 01:04:30,120 [main] [DEBUG] [wire] http-outgoing-7 >> "GET /account/1/balance HTTP/1.1[\r][\n]"
+2019-09-16 01:04:30,120 [main] [DEBUG] [wire] http-outgoing-7 >> "Host: localhost:8081[\r][\n]"
+2019-09-16 01:04:30,120 [main] [DEBUG] [wire] http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2019-09-16 01:04:30,120 [main] [DEBUG] [wire] http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_162)[\r][\n]"
+2019-09-16 01:04:30,120 [main] [DEBUG] [wire] http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-16 01:04:30,120 [main] [DEBUG] [wire] http-outgoing-7 >> "[\r][\n]"
+2019-09-16 01:04:30,122 [qtp576936864-97] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:04:30,122 [main] [DEBUG] [wire] http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-16 01:04:30,123 [main] [DEBUG] [wire] http-outgoing-7 << "Date: Sun, 15 Sep 2019 22:04:30 GMT[\r][\n]"
+2019-09-16 01:04:30,123 [main] [DEBUG] [wire] http-outgoing-7 << "Content-Type: application/json[\r][\n]"
+2019-09-16 01:04:30,123 [main] [DEBUG] [wire] http-outgoing-7 << "Content-Length: 6[\r][\n]"
+2019-09-16 01:04:30,123 [main] [DEBUG] [wire] http-outgoing-7 << "Server: Jetty(9.2.3.v20140905)[\r][\n]"
+2019-09-16 01:04:30,123 [main] [DEBUG] [wire] http-outgoing-7 << "[\r][\n]"
+2019-09-16 01:04:30,123 [main] [DEBUG] [wire] http-outgoing-7 << "100.10"
+2019-09-16 01:04:30,123 [main] [DEBUG] [headers] http-outgoing-7 << HTTP/1.1 200 OK
+2019-09-16 01:04:30,123 [main] [DEBUG] [headers] http-outgoing-7 << Date: Sun, 15 Sep 2019 22:04:30 GMT
+2019-09-16 01:04:30,123 [main] [DEBUG] [headers] http-outgoing-7 << Content-Type: application/json
+2019-09-16 01:04:30,123 [main] [DEBUG] [headers] http-outgoing-7 << Content-Length: 6
+2019-09-16 01:04:30,123 [main] [DEBUG] [headers] http-outgoing-7 << Server: Jetty(9.2.3.v20140905)
+2019-09-16 01:04:30,123 [main] [DEBUG] [MainClientExec] Connection can be kept alive indefinitely
+2019-09-16 01:04:30,123 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection [id: 7][route: {}->http://localhost:8081] can be kept alive indefinitely
+2019-09-16 01:04:30,123 [main] [DEBUG] [PoolingHttpClientConnectionManager] Connection released: [id: 7][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 8 of 100; total allocated: 8 of 200]
+2019-09-16 01:04:41,028 [com.resttransfer.RestServer.main()] [INFO ] [RestServer] Preparing DataBase
+2019-09-16 01:04:41,030 [com.resttransfer.RestServer.main()] [INFO ] [Utils] loadConfig(): Loading config file: main.properties
+2019-09-16 01:04:41,035 [com.resttransfer.RestServer.main()] [INFO ] [DataBaseImpl] Inserting test data
+2019-09-16 01:04:41,219 [com.resttransfer.RestServer.main()] [INFO ] [RestServer] Preparing DataBase Complete
+2019-09-16 01:04:41,219 [com.resttransfer.RestServer.main()] [INFO ] [RestServer] Start Service
+2019-09-16 01:04:55,508 [qtp294224228-20] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=2, userId='2\n, balance=200.20, currencyCode='USD\n}
+2019-09-16 01:05:26,834 [qtp294224228-23] [DEBUG] [AccountDAOImpl] transferAccountBalance from Account: Account{accountId=2, userId='2\n, balance=200.20, currencyCode='USD\n}
+2019-09-16 01:05:26,834 [qtp294224228-23] [DEBUG] [AccountDAOImpl] transferAccountBalance to Account: Account{accountId=1, userId='1\n, balance=100.10, currencyCode='USD\n}
+2019-09-16 01:05:26,843 [qtp294224228-23] [DEBUG] [AccountDAOImpl] Number of rows updated for the transfer : 2
+2019-09-16 01:05:30,574 [qtp294224228-24] [DEBUG] [AccountDAOImpl] Retrieve Account By Id: Account{accountId=2, userId='2\n, balance=199.20, currencyCode='USD\n}
